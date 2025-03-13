@@ -29,11 +29,11 @@
 
         default {
             bindings = <
-&kp ESC    &kp N1     &kp N2  &kp N3  &kp N4         &kp N5  &none                                                                                                &kp LS(LC(LG(J)))      &kp N6  &kp N7         &kp N8     &kp N9     &kp N0     &none
-&kp TAB    &kp Q      &kp W   &kp E   &kp R          &kp T   &none                                                                                                &kp LS(LC(LG(ENTER)))  &kp Y   &kp U          &kp I      &kp O      &kp P      &kp BSLH
-&kp LCTRL  &kp A      &kp S   &kp D   &kp F          &kp G   &kp LA(ESCAPE)            &kp LGUI       &kp LS(LC(LGUI))        &kp RGUI  &kp LC(SPACE)             &kp LS(LC(LG(SPACE)))  &kp H   &kp J          &kp K      &kp L      &kp SEMI   &ht_kp_kp LCTRL SQT
-&kp LSHFT  &kp Z      &kp X   &kp C   &ht_mo_kp 1 V  &kp B                                            &ht_kp_kp LALT LA(A)    &none                                                      &kp N   &ht_mo_kp 1 M  &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
-&none      &kp GRAVE  &none   &to 2   &to 1                                  &kp BSPC  &kp LA(LCTRL)  &kp LS(LA(LCTRL))       &none     &kp RET        &kp SPACE                                 &kp LBKT       &kp RBKT   &kp MINUS  &kp EQUAL  &none
+&kp ESC    &kp N1     &kp N2  &kp N3  &kp N4         &kp N5  &none                                                                                          &kp LS(LC(LG(J)))      &kp N6  &kp N7         &kp N8     &kp N9     &kp N0     &none
+&kp TAB    &kp Q      &kp W   &kp E   &kp R          &kp T   &none                                                                                          &kp LS(LC(LG(ENTER)))  &kp Y   &kp U          &kp I      &kp O      &kp P      &kp BSLH
+&kp LCTRL  &kp A      &kp S   &kp D   &kp F          &kp G   &none            &kp LGUI       &kp LS(LC(LGUI))        &kp RGUI     &kp LC(SPACE)             &kp LS(LC(LG(SPACE)))  &kp H   &kp J          &kp K      &kp L      &kp SEMI   &ht_kp_kp LCTRL SQT
+&kp LSHFT  &kp Z      &kp X   &kp C   &ht_mo_kp 1 V  &kp B                                   &ht_kp_kp LALT LA(A)    &none                                                         &kp N   &ht_mo_kp 1 M  &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
+&none      &kp GRAVE  &none   &to 2   &to 1                         &kp BSPC  &kp LA(LCTRL)  &kp LS(LA(LCTRL))       &kp LA(ESC)  &kp RET        &kp SPACE                                 &kp LBKT       &kp RBKT   &kp MINUS  &kp EQUAL  &none
             >;
         };
 
